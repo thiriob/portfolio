@@ -13,7 +13,7 @@
         <div class="pointer-events-auto flex mr-8">
             <img @click="changeLang('fr')"
                 src="@/assets/france.png"
-                alt="south-korea"
+                alt="france"
                 class="w-8 cursor-pointer mr-2"
             />
             <img @click="changeLang('eng')"
@@ -30,7 +30,7 @@
 <script>
 import {setCookie} from "../cookie";
 
-import koreaFlag from '@/assets/south-korea.png'
+import franceFlag from '@/assets/france.png'
 
 export default {
   name: 'Nav',
