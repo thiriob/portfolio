@@ -22,8 +22,8 @@
         <p v-if="getCookie('lang') === 'eng'" class="text-base text-body-color leading-relaxed mb-7">
           {{ desc }}
         </p>
-        <p v-if="getCookie('lang') === 'kr'" class="text-base text-body-color leading-relaxed mb-7">
-          {{ descKR }}
+        <p v-if="getCookie('lang') === 'fr'" class="text-base text-body-color leading-relaxed mb-7">
+          {{ descFR }}
         </p>
         <div class="space-x-2 mt-auto">
           <div v-for="tag in tags" :key="tag" class="bg-azure px-3 py-1 font-semibold text-sm inline-flex rounded-full">
@@ -33,7 +33,7 @@
       </div>
     </div>
     </a>
-    <Modal :modal="cardtitle" :link="link" :year="year" :desc="desc" :img="img" :tags="tags" :descKR="descKR">
+    <Modal :modal="cardtitle" :link="link" :year="year" :desc="desc" :img="img" :tags="tags" :descFR="descFR">
     </Modal>
   </div>
 </template>
@@ -52,7 +52,7 @@ export default {
     year: String,
     link: String,
     desc: String,
-    descKR: String,
+    descFR: String,
     img: String,
     tags: Array,
   },

@@ -19,7 +19,7 @@
             class="object-cover mb-6 max-h-80 rounded"
         />
         <div v-if="getCookie('lang') == 'eng'">{{ desc }}</div>
-        <div v-if="getCookie('lang') == 'kr'">{{ descKR }}</div>
+        <div v-if="getCookie('lang') == 'fr'">{{ descFR }}</div>
       </div>
       <a :href="link" target="_blank" class="m-auto mt-6">
         <button class="bg-celadonBlue hover:bg-prussianBlue">
@@ -41,7 +41,7 @@ export default {
     year: String,
     link: String,
     desc: String,
-    descKR: String,
+    descFR: String,
     img: String,
     tags: Array,
   },
