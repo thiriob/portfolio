@@ -24,4 +24,4 @@ app.use(router)
 
 app.mount('#app')
 
-document.title = 'Portfolio | Florent Baris'
+document.title = 'Portfolio | Gaspard Thirion'
