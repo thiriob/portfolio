@@ -33,7 +33,7 @@
       </div>
     </div>
     </a>
-    <Modal :modal="cardtitle" :link="link" :year="year" :desc="desc" :img="img" :tags="tags" :descFR="descFR">
+    <Modal :modal="cardtitle" :link="link" :year="year" :desc="desc" :img="img" :tags="tags" :descFR="descFR" :longDesc="longDesc" :longDescFR="longDescFR">
     </Modal>
   </div>
 </template>
@@ -53,6 +53,8 @@ export default {
     link: String,
     desc: String,
     descFR: String,
+    longDesc: String,
+    longDescFR: String,
     img: String,
     tags: Array,
   },
