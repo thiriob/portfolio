@@ -5,8 +5,8 @@
     bg-white rounded-lg overflow-hidden mb-10">
       <div class="h-60 overflow-hidden">
         <img
-            :src="img"
-            v-bind:alt="img"
+            :src="img1"
+            v-bind:alt="img1"
             class="object-cover h-60 w-80"
         />
       </div>
@@ -33,7 +33,7 @@
       </div>
     </div>
     </a>
-    <Modal :modal="cardtitle" :link="link" :year="year" :desc="desc" :img="img" :tags="tags" :descFR="descFR" :longDesc="longDesc" :longDescFR="longDescFR">
+    <Modal :modal="cardtitle" :link="link" :year="year" :desc="desc" :img1="img1" :img2="img2" :img3="img3" :video="video" :tags="tags" :descFR="descFR" :longDesc="longDesc" :longDescFR="longDescFR">
     </Modal>
   </div>
 </template>
@@ -55,7 +55,10 @@ export default {
     descFR: String,
     longDesc: String,
     longDescFR: String,
-    img: String,
+    img1: String,
+    img2: String,
+    img3: String,
+    video: String,
     tags: Array,
   },
   mounted(){

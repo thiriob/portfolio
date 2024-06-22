@@ -9,6 +9,9 @@
     <section id="projects" class="flex w-full">
       <Projects msg="Gaspard Thirion"/>
     </section>
+    <section id="projectsGJ" class="flex w-full">
+      <ProjectsGJ msg="Gaspard Thirion"/>
+    </section>
     <section id="contact" class="flex w-full">
       <ContactMe/>
     </section>
@@ -19,6 +22,7 @@
 import Nav from './components/Nav.vue'
 import About from './components/About.vue'
 import Projects from '@/components/Projects.vue'
+import ProjectsGJ from '@/components/ProjectsGJ.vue'
 import Arrow from '@/components/Arrow.vue'
 import ContactMe from "@/components/ContactMe.vue";
 
@@ -30,6 +34,7 @@ export default {
     About,
     Arrow,
     Projects,
+    ProjectsGJ,
   },
   data() {
     return {

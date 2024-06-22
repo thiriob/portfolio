@@ -1,5 +1,5 @@
 <template>
-  <dialog :id="modal" class="h-2/3 w-11/12 md:w-1/2 p-5 bg-white rounded-md" @click="close">
+  <dialog :id="modal" class="w-11/12 md:w-1/2 p-5 bg-white rounded-md" @click="close">
     <div class="flex flex-col w-full h-auto" @click.stop>
       <!-- Header -->
       <div class="flex w-full h-auto justify-center items-center">
@@ -17,16 +17,13 @@
         <!--Header End-->
       </div>
       <!-- Modal Content-->
-      <div
-          class="flex flex-col text-xl w-full h-auto mt-2 py-10 px-2 justify-center items-center bg-gray-200 rounded text-center text-gray-600">
-        <img
-            v-bind:src="img"
-            v-bind:alt="img"
-            class="object-cover mb-6 max-h-80 rounded"
-        />
-      </div>
-      <div v-if="getCookie('lang') == 'eng'" class="mb-6 mt-6"> {{ longDesc }}</div>
-      <div v-if="getCookie('lang') == 'fr'" class="mb-6 mt-6"> {{ longDescFR }}</div>
+    </div>
+    <div @click.stop>
+      <Swiper :img1="img1" :img2="img2" :img3="img3" :video="video"></Swiper>
+    </div>
+    <div class="flex flex-col w-full h-auto" @click.stop>
+      <div v-if="getCookie('lang') == 'eng'" class="my-4"> {{ longDesc }}</div>
+      <div v-if="getCookie('lang') == 'fr'" class="my-4"> {{ longDescFR }}</div>
       <div class="space-x-2 mt-auto">
         <div v-for="tag in tags" :key="tag" class="bg-azure px-3 py-1 font-semibold text-sm inline-flex rounded-full">
           {{ tag }}
@@ -34,7 +31,8 @@
       </div>
       <a :href="link" target="_blank" class="m-auto mt-6">
         <button class="bg-celadonBlue hover:bg-prussianBlue">
-          <span>Open Link</span>
+          <span v-if="getCookie('lang') == 'eng'">Open Link</span>
+          <span v-if="getCookie('lang') == 'fr'">Ouvrir le lien</span>
         </button>
       </a>
       <!-- End of Modal Content-->
@@ -44,9 +42,11 @@
 
 <script>
 import {getCookie} from '../cookie';
+import Swiper from "./Swiper.vue";
 
 export default {
   name: 'Modal',
+  components: {Swiper},
   props: {
     modal: String,
     year: String,
@@ -55,7 +55,10 @@ export default {
     descFR: String,
     longDesc: String,
     longDescFR: String,
-    img: String,
+    img1: String,
+    img2: String,
+    img3: String,
+    video: String,
     tags: Array,
   },
   methods: {
