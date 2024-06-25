@@ -3,7 +3,7 @@
     <div class="flex flex-col">
       <div class="flex flex-wrap mt-14 md:mt-0">
         <div class="md:w-1/2 w-full m-auto">
-          <img class="rounded-full m-auto md:h-80 md:w-80 h-52 w-52 object-cover" src="@/assets/cv.jpeg"
+          <img class="rounded-full m-auto md:h-80 md:w-80 h-52 w-52 object-cover" src="@/assets/photo.jpeg"
             alt="Picture of Gaspard thirion">
         </div>
         <div class="md:w-1/2 md:p-0 sm:p-4 flex flex-col">

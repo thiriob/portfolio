@@ -1,11 +1,10 @@
 <template>
   <div id="app" class="h-screen light">
     <Nav/>
-    <section id="about" class="flex h-full">
+    <section id="about" class="flex h-full max-h-screen overflow-scroll">
       <About msg="Gaspard Thirion"/>
       <Arrow/>
     </section>
-    <a class="anchor" id="agile"></a>
     <section id="projects" class="flex w-full">
       <Projects msg="Gaspard Thirion"/>
     </section>
