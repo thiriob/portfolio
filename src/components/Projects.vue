@@ -18,8 +18,6 @@
       />
       <Card
           :img1="AV1"
-          :img2="AV2"
-          :img3="AV3"
           cardtitle="Aviator" year="2023" v-bind:tags="['Unity', 'Android', 'Firebase', 'Narrative']"
           desc="Mobile Game, tower defense like, usage of AI generated images"
           descFR="Description de Aviator en francais"
@@ -66,13 +64,11 @@ import BS2 from '@/assets/Projects/BS-2.jpg';
 import BS3 from '@/assets/Projects/BS-3.jpg';
 
 import AV1 from '@/assets/Projects/AV-1.jpg';
-import AV2 from '@/assets/Projects/AV-2.jpg';
-import AV3 from '@/assets/Projects/AV-3.jpg';
+// import AV2 from '@/assets/Projects/AV-2.jpg';
+// import AV3 from '@/assets/Projects/AV-3.jpg';
 
 import Card from './Card.vue'
 import {getCookie} from "@/cookie";
-import BR from '@/assets/BarrierSquad.png';
-import Aviator from '@/assets/BarrierSquad.png';
 
 export {}
 
@@ -100,8 +96,8 @@ export default {
       BS3: BS3,
 
       AV1: AV1,
-      AV2: AV2,
-      AV3: AV3,
+      // AV2: AV2,
+      // AV3: AV3,
     }
   },
   mounted() {

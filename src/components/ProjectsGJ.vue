@@ -5,15 +5,14 @@
     <h2 v-if="getCookie('lang') === 'fr'" class="text-3xl mt-6 mb-8 md:mt-10 md:mb-12 text-center">Projets de Game
       Jam</h2>
     <div class="flex flex-wrap justify-center">
-      <Card :img1= "PR"
-            img2= "PR"
-            img3= "PR"
-            link="https://gamevrest.odoo.com/"
-            cardtitle="Premier Servi" year="2023" v-bind:tags="['Unity','Party Game', 'Steam']"
-            desc="Premier Servi, use of AI generated assets, ongoing"
-            descFR="Description de Premier servi en francais"
-            longDesc="Long description for Premier servi"
-            longDescFR="Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi"
+      <Card
+          :img1="AV1"
+          link="https://gamevrest.odoo.com/"
+          cardtitle="Premier Servi" year="2023" v-bind:tags="['Unity','Party Game', 'Steam']"
+          desc="Premier Servi, use of AI generated assets, ongoing"
+          descFR="Description de Premier servi en francais"
+          longDesc="Long description for Premier servi"
+          longDescFR="Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi Description longue pour premier servi"
       />
     </div>
   </div>
@@ -21,12 +20,10 @@
 
 
 <script>
+import AV1 from '@/assets/Projects/AV-1.jpg';
+
 import Card from './Card.vue'
 import {getCookie} from "@/cookie";
-import PR from '@/assets/PremierServi.png';
-import Proxima from '@/assets/Proxima.png';
-import BR from '@/assets/BarrierSquad.png';
-import Aviator from '@/assets/BarrierSquad.png';
 
 console.log(PR.toString());
 export default {
@@ -40,10 +37,7 @@ export default {
   },
   data() {
     return {
-      PR: PR,
-      Proxima: Proxima,
-      BR: BR,
-      Aviator: Aviator,
+      AV1: Av1,
     }
   },
   mounted() {
