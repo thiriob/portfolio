@@ -29,7 +29,7 @@
           {{ tag }}
         </div>
       </div>
-      <a :href="link" target="_blank" class="m-auto mt-6">
+      <a v-if="link" :href="link" target="_blank" class="m-auto mt-6">
         <button class="bg-celadonBlue hover:bg-prussianBlue">
           <span v-if="getCookie('lang') == 'eng'">Open Link</span>
           <span v-if="getCookie('lang') == 'fr'">Ouvrir le lien</span>
