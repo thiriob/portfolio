@@ -25,7 +25,6 @@ import AV1 from '@/assets/Projects/AV-1.jpg';
 import Card from './Card.vue'
 import {getCookie} from "@/cookie";
 
-console.log(PR.toString());
 export default {
   name: 'ProjectsGJ',
   methods: {getCookie},
