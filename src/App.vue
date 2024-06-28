@@ -8,9 +8,9 @@
     <section id="projects" class="flex w-full">
       <Projects msg="Gaspard Thirion"/>
     </section>
-<!--    <section id="projectsGJ" class="flex w-full">-->
-<!--      <ProjectsGJ msg="Gaspard Thirion"/>-->
-<!--    </section>-->
+    <section id="projectsGJ" class="flex w-full">
+      <ProjectsGJ msg="Gaspard Thirion"/>
+    </section>
     <section id="contact" class="flex w-full">
       <ContactMe/>
     </section>

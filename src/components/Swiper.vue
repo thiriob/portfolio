@@ -2,7 +2,7 @@
   <swiper :navigation="true" :modules="modules" class="bg-gray-200 rounded">
     <swiper-slide v-if="video" >
       <div class="flex justify-center my-4 h-full w-full rounded">
-        <iframe src="https://www.youtube.com/embed/HJnT_nsFjWY" height="360" width="80%"
+        <iframe :src="video" height="360" width="80%"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded-lg"
         ></iframe>
