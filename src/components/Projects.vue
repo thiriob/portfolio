@@ -60,7 +60,7 @@
           :img3="BS3"
           cardtitle="Barrier Squad" year="2019" v-bind:tags="['Unity', 'Android', 'Tower Defense']"
           desc=""
-          descFR="Tower defense avec des mécaniques originales publié sur le store android."
+          descFR="Tower defense avec des mécaniques originales publié sur Android."
           longDesc=""
           longDescFR="Intégration de Google play games pour les hauts faits et high score ainsi que Unity ads pour la partie publicité. 
           Correction de bugs et optimisations diverses pour améliorer les performances sur Android. "

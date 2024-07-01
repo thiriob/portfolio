@@ -10,7 +10,7 @@
             class="object-cover h-60 w-80"
         />
       </div>
-      <div class="h-48 p-4 text-center flex-col flex">
+      <div class="h-52 p-4 text-center flex-col flex">
         <h3>
           <p
               class="font-semibold text-dark text-xl sm:text-[22px] md:text-xl lg:text-[22px] xl:text-xl 2xl:text-[22px]
@@ -26,7 +26,7 @@
           {{ descFR }}
         </p>
         <div class="space-x-2 mt-auto">
-          <div v-for="tag in tags" :key="tag" class="bg-azure px-3 py-1 font-semibold text-sm inline-flex rounded-full">
+          <div v-for="tag in tags" :key="tag" class="mb-2 bg-azure px-3 py-1 font-semibold text-sm inline-flex rounded-full">
             {{ tag }}
           </div>
         </div>

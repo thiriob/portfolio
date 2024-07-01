@@ -41,7 +41,6 @@ export default {
   methods: {
     changeLang(lang) {
       setCookie("lang", lang, 1000)
-      //console.log(getCookie("lang"))
       location.reload();
     }
   }

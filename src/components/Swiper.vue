@@ -14,7 +14,7 @@
         <img
             v-bind:src="img1"
             v-bind:alt="img1"
-            class="object-cover max-h-80 rounded"
+            class="object-cover max-h-80 rounded select-none"
         />
       </div>
     </swiper-slide>
@@ -22,7 +22,7 @@
       <div class="flex justify-center my-4"><img
           v-bind:src="img2"
           v-bind:alt="img2"
-          class="object-cover max-h-80 rounded"
+          class="object-cover max-h-80 rounded select-none"
       />
       </div>
     </swiper-slide>
@@ -30,7 +30,7 @@
       <div class="flex justify-center my-4"><img
           v-bind:src="img3"
           v-bind:alt="img3"
-          class="object-cover max-h-80 rounded"
+          class="object-cover max-h-80 rounded select-none"
       />
       </div>
     </swiper-slide>

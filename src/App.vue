@@ -24,6 +24,8 @@ import Projects from '@/components/Projects.vue'
 import ProjectsGJ from '@/components/ProjectsGJ.vue'
 import Arrow from '@/components/Arrow.vue'
 import ContactMe from "@/components/ContactMe.vue";
+import {setCookie} from "./cookie";
+import {onMounted} from "vue";
 
 export default {
   name: 'App',
@@ -39,8 +41,13 @@ export default {
     return {
       lang: "eng"
     }
-  }
+  },
 }
+
+onMounted(() => {
+  setCookie("lang", 'fr', 1000)
+  location.reload();
+})
 </script>
 
 <style>
