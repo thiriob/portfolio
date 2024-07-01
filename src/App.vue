@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="h-screen light">
     <Nav/>
-    <section id="about" class="flex h-full max-h-screen overflow-scroll">
+    <section id="about" class="flex h-full max-h-screen overflow-y-auto">
       <About msg="Gaspard Thirion"/>
       <Arrow/>
     </section>
@@ -25,7 +25,6 @@ import ProjectsGJ from '@/components/ProjectsGJ.vue'
 import Arrow from '@/components/Arrow.vue'
 import ContactMe from "@/components/ContactMe.vue";
 import {setCookie} from "./cookie";
-import {onMounted} from "vue";
 
 export default {
   name: 'App',
@@ -42,12 +41,11 @@ export default {
       lang: "eng"
     }
   },
+  mounted() {
+    setCookie("lang", 'fr', 1000)
+  },
 }
 
-onMounted(() => {
-  setCookie("lang", 'fr', 1000)
-  location.reload();
-})
 </script>
 
 <style>

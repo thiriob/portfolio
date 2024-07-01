@@ -11,11 +11,11 @@
           :img3="FF3"
           link="https://lothi.itch.io/ff-xxiv-remake-fraud-fantasy"
           cardtitle="FFXXIV Remake" year="2024" v-bind:tags="['Unity','Narration', 'GGJ']"
-          desc=""
+          desc="Satire of traditional RPGs."
           descFR="Satyre des RPGS traditionnels."
-          longDesc=""
+          longDesc="Achievements: Dialogue system from an easily editable file by the Game Designer. Dialogues adapt to player actions. Worked on 2.5D rendering and player/NPC movements/interactions."
           longDescFR="Réalisations : Système de dialogue depuis un fichier facilement éditable par le Game Designer. 
-          Les dialogues s’adaptent aux actions du joueur. Travail sur le rendu 2.5D et les déplacements/intéractions du joueur et des NPC. "
+          Les dialogues s’adaptent aux actions du joueur. Travail sur le rendu 2.5D et les déplacements/intéractions du joueur et des NPC."
       />
       <Card
           video="https://www.youtube.com/embed/yG8GzlaRryQ"
@@ -24,9 +24,9 @@
           :img3="FJ3"
           link="https://gaspard-thirion.itch.io/ggj23"
           cardtitle="A fungal journey" year="2023" v-bind:tags="['Unity', 'Exploration', 'GGJ']"
-          desc=""
+          desc="Adventure game telling the story of a young member of the mushroom tribe."
           descFR="Jeu d'aventure racontant l’histoire d’un jeune habitant de la tribu des champignons."
-          longDesc=""
+          longDesc="First 2.5D experience: discovering 2.5D rendering and lighting capabilities in Unity. Created interactions and dialogue systems with NPCs."
           longDescFR="Première expérience en 2.5D : découverte des capacités de rendu et éclairage 2.5d dans Unity. 
           Réalisations des interactions et du système de dialogue avec les NPC."
       />
@@ -36,9 +36,9 @@
           :img3="JL3"
           link="https://nonogg.itch.io/jules-achte-du-pain"
           cardtitle="Jules achète du pain" year="2022" v-bind:tags="['Unity', 'Narration', 'GGJ']"
-          desc=""
+          desc="Narrative experience with multiple choices inviting players to discover all possible scenarios."
           descFR="Expérience narrative à choix multiples invitant à découvrir tous les scénarios possibles."
-          longDesc=""
+          longDesc="Created branching system. Display of choices and animations of various scenes."
           longDescFR="Réalisation du système d’embranchement. Affichage des choix et animations des différentes scénettes."
       />
       <Card
@@ -47,9 +47,9 @@
           :img3="CH3"
           link="https://maerys.itch.io/cake-ho"
           cardtitle="Cake Ho!" year="2021" v-bind:tags="['Unity', 'Puzzle', 'MiniJam']"
-          desc=""
+          desc="Puzzle game set in a pirate universe."
           descFR="Jeu de puzzle dans l’univers des pirates."
-          longDesc=""
+          longDesc="Created a simple format allowing the Game Designer to create puzzles without developer intervention. Display and verification of puzzle resolution. Small system allowing the pirate to congratulate the player."
           longDescFR="Création d’un format simple permettant au Game Designer de créer les puzzles sans intervention du développeur.
            Affichage et vérification de la bonne résolution des puzzles. Petit système permettant au pirate de congratuler le joueur."
       />
@@ -58,9 +58,9 @@
           :img2="LF2"
           link="https://baris-f.itch.io/lost-and-found-office"
           cardtitle="Lost & found office" year="2021" v-bind:tags="['Unity','Puzzle','GGJ']"
-          desc=""
+          desc="Mini-game that tests the player's observation skills."
           descFR="Mini jeu faisant appel à l’observation du joueur."
-          longDesc=""
+          longDesc="Worked on object physics to simulate a disordered pile of items. Random generation of objects. Display of requested items gradually feeding into a simple scoring system."
           longDescFR="Travail sur la physique des objets afin de simuler une pile d’objets désordonnée. Génération des objets de façon aléatoire.
           Affichage des objets demandes au fur et a mesure qui aliment un scoring simple."
       />
@@ -70,16 +70,15 @@
           :img3="MM3"
           link="https://florentin-peters.itch.io/miasmaze"
           cardtitle="Miasmaze" year="2020" v-bind:tags="['Unity','Exploration', 'Expressive Jam']"
-          desc=""
+          desc="Collaborative exploration game."
           descFR="Jeu d’exploration collaboratif."
-          longDesc=""
+          longDesc="Created map synchronization between different players via Firebase. Players can also drop messages. Created various static and interactive elements with which Game Designers could build the map."
           longDescFR="Création d’une synchronisation de la map entre les différents joueurs via Firebase. Les joueurs peuvent aussi déposer des messages.
           Réalisations de différents éléments inertes et interactables avec lesquels les Game Designer ont pu créer la map."
       />
     </div>
   </div>
 </template>
-
 
 <script>
 import FF from '@/assets/GameJams/FF.jpg';

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-80 md:px-4">
+  <div class="w-96 md:px-4">
     <a @click="showModal" class="cursor-pointer">
     <div class=" md:w-20rem shadow-md hover:shadow-lg transition duration-300 ease-in-out transform hover:scale-105
     bg-white rounded-lg overflow-hidden mb-10">
@@ -7,7 +7,7 @@
         <img
             :src="img1"
             v-bind:alt="img1"
-            class="object-cover h-60 w-80"
+            class="object-cover h-60 w-96"
         />
       </div>
       <div class="h-52 p-4 text-center flex-col flex">

@@ -11,20 +11,20 @@
           :img3="ST3"
           link="https://assetstore.unity.com/preview/288450/937001"
           cardtitle="Scriptable Toolbox" year="2024" v-bind:tags="['Unity','Editor Tool', 'Package']"
-          desc=""
-          descFR="Package publié sur l’asset store de Unity. "
-          longDesc=""
+          desc="Package published on the Unity asset store."
+          descFR="Package publié sur l’asset store de Unity."
+          longDesc="Collection of tools intended to help Unity developers working with Scriptable Objects."
           longDescFR="Collection d’outils destinée à aider les développeur Unity travaillant avec les Scriptables Objects."
       />
       <Card
           :img1="PS1"
           :img2="PS2"
           :img3="PS3"
-          link="https://gamevrest.odoo.com/"
+          link="https://gamevrest.com/"
           cardtitle="Premier Servi" year="2023" v-bind:tags="['Unity','Party Game', 'Steam']"
-          desc=""
+          desc="Colorful hide-and-seek party game inspired by French culture clichés."
           descFR="Party game de cache-cache coloré prenant inspiration des clichés de la culture française."
-          longDesc=""
+          longDesc="Planned for Steam release in 2024 and later on Switch. Responsible for the entire technical side, from gameplay and data management to UI logic."
           longDescFR="Objectif de publication sur Steam en 2024 et Switch par la suite.
           Réalisation de toute la partie technique, allant du gameplay à la gestion des données au fonctionnement logique des UI."
       />
@@ -35,9 +35,9 @@
           :img3="AV3"
           link="https://www.artstation.com/artwork/qek5eD"
           cardtitle="Aviator" year="2023" v-bind:tags="['Unity', 'Android', 'Firebase', 'Narrative']"
-          desc=""
+          desc="Narrative experience, applied arts graduation project."
           descFR="Expérience narrative, projet de fin d’études d’arts appliqués."
-          longDesc=""
+          longDesc="Implementation: A tablet connected to Firebase controls the main display on a projector. Created a dialogue and cinematic system based on YarnSpinner. Integrated assets created by the client."
           longDescFR="Réalisation : Une tablette connectée à Firebase sert à contrôler l’affichage principal sur un vidéoprojecteur. 
           Création d'un système de dialogue et de cinématique basé sur YarnSpinner.
            Intégration des assets créés par le client."
@@ -48,22 +48,22 @@
           :img2="PC2"
           :img3="PC3"
           cardtitle="Proxima Cities" year="2020" v-bind:tags="['Unity', 'AR', 'City Builder']"
-          desc=""
+          desc="AR city builder with an ecological message."
           descFR="City builder AR avec un message écologique."
-          longDesc=""
+          longDesc="Implementation of the AR component: visualization of the city and environmental impacts based on player choices. Handled storage and display of various buildings in 2D view along with dynamic roads."
           longDescFR="Réalisation de la partie AR : visualisation de la ville et des impacts sur l’environnement en fonctions des choix du joueur. 
-          Je me suis occupé du stockage et affichage des différents bâtiments en vue 2D ainsi que des routes dynamiques. "
+          Je me suis occupé du stockage et affichage des différents bâtiments en vue 2D ainsi que des routes dynamiques."
       />
       <Card
           :img1="BS1"
           :img2="BS2"
           :img3="BS3"
           cardtitle="Barrier Squad" year="2019" v-bind:tags="['Unity', 'Android', 'Tower Defense']"
-          desc=""
+          desc="Tower defense with original mechanics published on Android."
           descFR="Tower defense avec des mécaniques originales publié sur Android."
-          longDesc=""
+          longDesc="Integrated Google Play Games for achievements and high scores, as well as Unity Ads for advertising. Fixed bugs and optimized performance for Android."
           longDescFR="Intégration de Google play games pour les hauts faits et high score ainsi que Unity ads pour la partie publicité. 
-          Correction de bugs et optimisations diverses pour améliorer les performances sur Android. "
+          Correction de bugs et optimisations diverses pour améliorer les performances sur Android."
       />
     </div>
   </div>
