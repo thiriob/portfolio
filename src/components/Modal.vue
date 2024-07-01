@@ -22,8 +22,10 @@
       <Swiper :img1="img1" :img2="img2" :img3="img3" :video="video"></Swiper>
     </div>
     <div class="flex flex-col w-full h-auto" @click.stop>
-      <div v-if="getCookie('lang') == 'eng'" class="my-4"> {{ longDesc }}</div>
-      <div v-if="getCookie('lang') == 'fr'" class="my-4"> {{ longDescFR }}</div>
+      <div v-if="desc && getCookie('lang') == 'eng'" class="mt-4"> {{ desc }}</div>
+      <div v-if="descFR && getCookie('lang') == 'fr'" class="mt-4"> {{ descFR }}</div>
+      <div v-if="longDesc && getCookie('lang') == 'eng'" class="mb-4">{{ longDesc }}</div>
+      <div v-if="longDescFR && getCookie('lang') == 'fr'" class="mb-4">{{ longDescFR }}</div>
       <div class="space-x-2 mt-auto">
         <div v-for="tag in tags" :key="tag" class="bg-azure px-3 py-1 font-semibold text-sm inline-flex rounded-full">
           {{ tag }}

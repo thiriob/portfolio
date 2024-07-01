@@ -12,9 +12,10 @@
           link="https://lothi.itch.io/ff-xxiv-remake-fraud-fantasy"
           cardtitle="FFXXIV Remake" year="2024" v-bind:tags="['Unity','Narration', 'GGJ']"
           desc=""
-          descFR=""
+          descFR="Satyre des RPGS traditionnels."
           longDesc=""
-          longDescFR=""
+          longDescFR="Réalisations : Système de dialogue depuis un fichier facilement éditable par le Game Designer. 
+          Les dialogues s’adaptent aux actions du joueur. Travail sur le rendu 2.5D et les déplacements/intéractions du joueur et des NPC. "
       />
       <Card
           video="https://www.youtube.com/embed/yG8GzlaRryQ"
@@ -24,9 +25,10 @@
           link="https://gaspard-thirion.itch.io/ggj23"
           cardtitle="A fungal journey" year="2023" v-bind:tags="['Unity', 'Exploration', 'GGJ']"
           desc=""
-          descFR=""
+          descFR="Jeu d'aventure racontant l’histoire d’un jeune habitant de la tribu des champignons."
           longDesc=""
-          longDescFR=""
+          longDescFR="Première expérience en 2.5D : découverte des capacités de rendu et éclairage 2.5d dans Unity. 
+          Réalisations des interactions et du système de dialogue avec les NPC."
       />
       <Card
           :img1="JL"
@@ -35,9 +37,9 @@
           link="https://nonogg.itch.io/jules-achte-du-pain"
           cardtitle="Jules achète du pain" year="2022" v-bind:tags="['Unity', 'Narration', 'GGJ']"
           desc=""
-          descFR=""
+          descFR="Expérience narrative à choix multiples invitant à découvrir tous les scénarios possibles."
           longDesc=""
-          longDescFR=""
+          longDescFR="Réalisation du système d’embranchement. Affichage des choix et animations des différentes scénettes."
       />
       <Card
           :img1="CH"
@@ -46,9 +48,10 @@
           link="https://maerys.itch.io/cake-ho"
           cardtitle="Cake Ho!" year="2021" v-bind:tags="['Unity', 'Puzzle', 'MiniJam']"
           desc=""
-          descFR=""
+          descFR="Jeu de puzzle dans l’univers des pirates."
           longDesc=""
-          longDescFR=""
+          longDescFR="Création d’un format simple permettant au Game Designer de créer les puzzles sans intervention du développeur.
+           Affichage et vérification de la bonne résolution des puzzles. Petit système permettant au pirate de congratuler le joueur."
       />
       <Card
           :img1="LF"
@@ -56,9 +59,10 @@
           link="https://baris-f.itch.io/lost-and-found-office"
           cardtitle="Lost & found office" year="2021" v-bind:tags="['Unity','Puzzle','GGJ']"
           desc=""
-          descFR=""
+          descFR="Mini jeu faisant appel à l’observation du joueur."
           longDesc=""
-          longDescFR=""
+          longDescFR="Travail sur la physique des objets afin de simuler une pile d’objets désordonnée. Génération des objets de façon aléatoire.
+          Affichage des objets demandes au fur et a mesure qui aliment un scoring simple."
       />
       <Card
           :img1="MM"
@@ -67,9 +71,10 @@
           link="https://florentin-peters.itch.io/miasmaze"
           cardtitle="Miasmaze" year="2020" v-bind:tags="['Unity','Exploration', 'Expressive Jam']"
           desc=""
-          descFR=""
+          descFR="Jeu d’exploration collaboratif."
           longDesc=""
-          longDescFR=""
+          longDescFR="Création d’une synchronisation de la map entre les différents joueurs via Firebase. Les joueurs peuvent aussi déposer des messages.
+          Réalisations de différents éléments inertes et interactables avec lesquels les Game Designer ont pu créer la map."
       />
     </div>
   </div>
@@ -117,11 +122,11 @@ export default {
       FF: FF,
       FF2: FF2,
       FF3: FF3,
-      
+
       FJ: FJ,
       FJ2: FJ2,
       FJ3: FJ3,
-      
+
       LF: LF,
       LF2: LF2,
 

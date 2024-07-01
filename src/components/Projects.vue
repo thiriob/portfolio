@@ -12,9 +12,9 @@
           link="https://assetstore.unity.com/preview/288450/937001"
           cardtitle="Scriptable Toolbox" year="2024" v-bind:tags="['Unity','Editor Tool', 'Package']"
           desc=""
-          descFR=""
+          descFR="Package publié sur l’asset store de Unity. "
           longDesc=""
-          longDescFR=""
+          longDescFR="Collection d’outils destinée à aider les développeur Unity travaillant avec les Scriptables Objects."
       />
       <Card
           :img1="PS1"
@@ -23,9 +23,10 @@
           link="https://gamevrest.odoo.com/"
           cardtitle="Premier Servi" year="2023" v-bind:tags="['Unity','Party Game', 'Steam']"
           desc=""
-          descFR=""
+          descFR="Party game de cache-cache coloré prenant inspiration des clichés de la culture française."
           longDesc=""
-          longDescFR=""
+          longDescFR="Objectif de publication sur Steam en 2024 et Switch par la suite.
+          Réalisation de toute la partie technique, allant du gameplay à la gestion des données au fonctionnement logique des UI."
       />
       <Card
           video="https://www.youtube.com/embed/o7HDHyE7LWA"
@@ -35,9 +36,11 @@
           link="https://www.artstation.com/artwork/qek5eD"
           cardtitle="Aviator" year="2023" v-bind:tags="['Unity', 'Android', 'Firebase', 'Narrative']"
           desc=""
-          descFR=""
+          descFR="Expérience narrative, projet de fin d’études d’arts appliqués."
           longDesc=""
-          longDescFR=""
+          longDescFR="Réalisation : Une tablette connectée à Firebase sert à contrôler l’affichage principal sur un vidéoprojecteur. 
+          Création d'un système de dialogue et de cinématique basé sur YarnSpinner.
+           Intégration des assets créés par le client."
       />
       <Card
           video="https://www.youtube.com/embed/HJnT_nsFjWY"
@@ -46,9 +49,10 @@
           :img3="PC3"
           cardtitle="Proxima Cities" year="2020" v-bind:tags="['Unity', 'AR', 'City Builder']"
           desc=""
-          descFR=""
+          descFR="City builder AR avec un message écologique."
           longDesc=""
-          longDescFR=""
+          longDescFR="Réalisation de la partie AR : visualisation de la ville et des impacts sur l’environnement en fonctions des choix du joueur. 
+          Je me suis occupé du stockage et affichage des différents bâtiments en vue 2D ainsi que des routes dynamiques. "
       />
       <Card
           :img1="BS1"
@@ -56,9 +60,10 @@
           :img3="BS3"
           cardtitle="Barrier Squad" year="2019" v-bind:tags="['Unity', 'Android', 'Tower Defense']"
           desc=""
-          descFR=""
+          descFR="Tower defense avec des mécaniques originales publié sur le store android."
           longDesc=""
-          longDescFR=""
+          longDescFR="Intégration de Google play games pour les hauts faits et high score ainsi que Unity ads pour la partie publicité. 
+          Correction de bugs et optimisations diverses pour améliorer les performances sur Android. "
       />
     </div>
   </div>
@@ -105,7 +110,7 @@ export default {
       ST1: ST1,
       ST2: ST2,
       ST3: ST3,
-      
+
       PS1: PS1,
       PS2: PS2,
       PS3: PS3,
