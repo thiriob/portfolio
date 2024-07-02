@@ -75,9 +75,9 @@ import ST1 from '@/assets/Projects/ST-1.png';
 import ST2 from '@/assets/Projects/ST-2.png';
 import ST3 from '@/assets/Projects/ST-3.png';
 
-import PS1 from '@/assets/Projects/PS-1.webp';
-import PS2 from '@/assets/Projects/PS-2.webp';
-import PS3 from '@/assets/Projects/PS-3.webp';
+import PS1 from '@/assets/Projects/PS-1.jpg';
+import PS2 from '@/assets/Projects/PS-2.jpg';
+import PS3 from '@/assets/Projects/PS-3.jpg';
 
 import PC1 from '@/assets/Projects/PC-1.jpg';
 import PC2 from '@/assets/Projects/PC-2.jpg';

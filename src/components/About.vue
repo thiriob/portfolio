@@ -30,7 +30,7 @@
             </p>
           </div>
           <div class="mt-2 space-x-1 sm:space-x-3">
-            <a v-if="getCookie('lang') === 'eng'" href="CV_Gaspard_Thirion_2024_FR_web.pdf" target="_blank"
+            <a v-if="getCookie('lang') === 'eng'" href="CV_Gaspard_Thirion_2024_EN_web.pdf" target="_blank"
                rel="noreferrer">
               <button class="bg-celadonBlue hover:bg-prussianBlue">
                 <svg class="sm:w-5 sm:w-5 w-4 h-4 fill-current" role="img" viewBox="0 0 42 42"
