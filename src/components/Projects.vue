@@ -17,6 +17,19 @@
           longDescFR="Collection d’outils destinée à aider les développeur Unity travaillant avec les Scriptables Objects."
       />
       <Card
+          :img1="SY1"
+          :img2="SY2"
+          :img3="SY3"
+          link="https://play.google.com/store/apps/details?id=com.syslor.implantation&amp;hl=en"
+          cardtitle="Syslor Implantation" year="2023" v-bind:tags="['Unity','AR']"
+          desc="Topographic survey application with AR visualization."
+          longDesc="Creation of a plan view that allows modification and creation of topographic points with precise GNSS surveys 
+          and a geographically positioned AR view that allows direct tracing of recorded points of interest in the real world."
+          descFR="Application de levée topographique avec visualisation AR."
+          longDescFR="Réalisation d'une vue plan permettant de modifier et créer des plans topographiques avec relevés GNSS précis 
+          et d’une vue AR positionnée géographiquement permettant de tracer directement dans le monde réel les points d’intérêt enregistrés."
+      />
+      <Card
           :img1="PS1"
           :img2="PS2"
           :img3="PS3"
@@ -69,8 +82,11 @@
   </div>
 </template>
 
-
 <script>
+import SY1 from '@/assets/Projects/SY-1.png';
+import SY2 from '@/assets/Projects/SY-2.jpeg';
+import SY3 from '@/assets/Projects/SY-3.jpg';
+
 import ST1 from '@/assets/Projects/ST-1.png';
 import ST2 from '@/assets/Projects/ST-2.png';
 import ST3 from '@/assets/Projects/ST-3.png';
@@ -107,6 +123,10 @@ export default {
   },
   data() {
     return {
+      SY1: SY1,
+      SY2: SY2,
+      SY3: SY3,
+
       ST1: ST1,
       ST2: ST2,
       ST3: ST3,
