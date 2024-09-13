@@ -6,6 +6,18 @@
       vedette</h2>
     <div class="flex flex-wrap justify-center">
       <Card
+          :img1="BS1"
+          :img2="BS2"
+          :img3="BS3"
+          link="https://www.gamevrest.com/BarrierSquad"
+          cardtitle="Barrier Squad 2.0" year="2024" v-bind:tags="['Unity', 'Android', 'Tower Defense']"
+          desc="Tower defense with original mechanics published on Android. Big update finalised in 2024."
+          descFR="Tower defense avec des mécaniques originales publié sur Android. Mise á jour totale en 2024."
+          longDesc="Integrated Google Play Games for achievements and high scores, as well as Unity Ads for advertising. Fixed bugs and optimized performance for Android."
+          longDescFR="Intégration de Google play games pour les hauts faits et high score ainsi que Unity ads pour la partie publicité. 
+          Correction de bugs et optimisations diverses pour améliorer les performances sur Android."
+      />
+      <Card
           :img1="ST1"
           :img2="ST2"
           :img3="ST3"
@@ -66,17 +78,6 @@
           longDesc="Implementation of the AR component: visualization of the city and environmental impacts based on player choices. Handled storage and display of various buildings in 2D view along with dynamic roads."
           longDescFR="Réalisation de la partie AR : visualisation de la ville et des impacts sur l’environnement en fonctions des choix du joueur. 
           Je me suis occupé du stockage et affichage des différents bâtiments en vue 2D ainsi que des routes dynamiques."
-      />
-      <Card
-          :img1="BS1"
-          :img2="BS2"
-          :img3="BS3"
-          cardtitle="Barrier Squad" year="2019" v-bind:tags="['Unity', 'Android', 'Tower Defense']"
-          desc="Tower defense with original mechanics published on Android."
-          descFR="Tower defense avec des mécaniques originales publié sur Android."
-          longDesc="Integrated Google Play Games for achievements and high scores, as well as Unity Ads for advertising. Fixed bugs and optimized performance for Android."
-          longDescFR="Intégration de Google play games pour les hauts faits et high score ainsi que Unity ads pour la partie publicité. 
-          Correction de bugs et optimisations diverses pour améliorer les performances sur Android."
       />
     </div>
   </div>

@@ -2,7 +2,7 @@
   <!-- Card Section -->
   <div class="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-20">
     <!-- Grid -->
-    <div class="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 sm:gap-6">
+    <div class="grid sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6">
       <!-- Card -->
       <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="https://linkedin.com/in/gaspard-thirion" target="_blank">
         <div class="p-4 md:p-5">
@@ -16,10 +16,10 @@
                 LinkedIn
               </h3>
               <p v-if="getCookie('lang') === 'eng'" class="text-sm text-gray-500">
-                Send me a message
+                View my profile
               </p>
               <p v-if="getCookie('lang') === 'fr'" class="text-sm text-gray-500">
-                M'envoyer un message
+                Voir mon profil
               </p>
             </div>
           </div>
@@ -50,6 +50,28 @@
             </div>
           </div>
         </Mailto>
+      </a>
+      <!-- End Card -->
+
+      <!-- Card -->
+      <a class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800" href="https://gamevrest.com/" target="_blank">
+        <div class="p-4 md:p-5">
+          <div class="flex">
+            <img src="https://www.gamevrest.com/_vercel/image?url=%2Flogo.png&w=320&q=100" alt="Gamevrest" width="44" height="44"/>
+
+            <div class="grow ml-5">
+              <h3 class="group-hover:text-celadonBlue font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                Gamevrest
+              </h3>
+              <p v-if="getCookie('lang') === 'eng'" class="text-sm text-gray-500">
+                Browse our games
+              </p>
+              <p v-if="getCookie('lang') === 'fr'" class="text-sm text-gray-500">
+                Découvrez nos jeux
+              </p>
+            </div>
+          </div>
+        </div>
       </a>
       <!-- End Card -->
     </div>
