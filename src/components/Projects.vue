@@ -6,6 +6,18 @@
       vedette</h2>
     <div class="flex flex-wrap justify-center">
       <Card
+          :img1="CE1"
+          cardtitle="CerfaExtract" year="2024" v-bind:tags="['C#', '.Net','Avalonia']"
+          desc="Tax bundle extraction tool"
+          descFR="Outils d'extraction de liasses fiscales"
+          longDesc="Extraction from CERFA forms contained in PDF accounting booklets with a non-standard format.
+          The data is inserted in a Word template provided by the client. 
+          Library uses OpenXML and a modified version of PdfiumViewer wrapped in a CLI and/or a GUI built with Avalonia."
+          longDescFR="Extraction depuis des formulaires CERFA contenus dans des plaquettes comptables en PDF ayant un format non standard. 
+          Les données sont insérées dans un modèle word fourni par le client. 
+          Librairie utilisant Openxml et une version modifiée de PdfiumViewer, le tout wrappé dans une CLI et/ou une GUI construite avec Avalonia."
+      />
+      <Card
           :img1="BS1"
           :img2="BS2"
           :img3="BS3"
@@ -108,6 +120,8 @@ import AV1 from '@/assets/Projects/AV-1.jpg';
 import AV2 from '@/assets/Projects/AV-2.jpg';
 import AV3 from '@/assets/Projects/AV-3.jpg';
 
+import CE1 from '@/assets/Projects/CE-1.png';
+
 import Card from './Card.vue'
 import {getCookie} from "@/cookie";
 
@@ -147,6 +161,8 @@ export default {
       AV1: AV1,
       AV2: AV2,
       AV3: AV3,
+      
+      CE1: CE1,
     }
   },
   mounted() {

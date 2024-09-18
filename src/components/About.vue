@@ -9,28 +9,30 @@
         <div class="md:w-1/2 md:p-0 sm:p-4 flex flex-col">
           <div class="flex-grow mt-4">
             <h1 class="text-4xl">{{ msg }}</h1>
-            <h2 class="text-2xl ml-2 mt-2 md:mt-5">Freelance Unity</h2>
-            <p v-if="getCookie('lang') === 'eng'" class="ml-2 sm:py-3 pt-1">Unity developer from a young age, I made a
-              career out of it when I graduated from Epitech. During my studies, I spent a year studying video games in
-              South Korea.
-              <br> Numerous GameJam experiences have enabled me to become versatile, efficient in my developments and
+            <h2 class="text-2xl ml-2 mt-2 md:mt-5" v-if="getCookie('lang') === 'eng'">C# Developer </h2>
+            <h2 class="text-2xl ml-2 mt-2 md:mt-5" v-if="getCookie('lang') === 'fr'">Développeur C#</h2>
+            <p v-if="getCookie('lang') === 'eng'" class="ml-2 sm:py-3 pt-1">
+              Developer from a young age, I made a career out of it when I graduated from Epitech.
+              <br> I am currently diversifying my skill set.
+              <br>C# is the language I have the most expertise in, allowing me to explore other technologies such as
+              WPF, Avalonia, ASP...
+              <br>Numerous GameJam experiences have enabled me to become versatile, efficient in my developments and
               able to quickly adapt to a new team.
-              <br>I mainly develop tools for Unity users (devs, artists...) and gameplay/UI systems. I have carried out
-              projects both in AR and VR.
-              <br>I'm also a national-level Biketrial competitor.
+              <br> I'm also a national-level Biketrial competitor.
             </p>
-            <p v-if="getCookie('lang') === 'fr'" class="ml-2 sm:py-3 pt-1 md:text-base text-sm">Développeur Unity depuis
-              toujours, j'en ai fait mon métier à la fin de mes études à Epitech. Durant ce cursus, je suis parti
-              étudier le jeux vidéo pendant un an en Corée du Sud.
-              <br> De nombreuses expériences de GameJam m'ont permis de devenir polyvalent, d'être efficace dans mes
+            <p v-if="getCookie('lang') === 'fr'" class="ml-2 sm:py-3 pt-1 md:text-base text-sm">
+              Développeur Unity depuis toujours, j'en ai fait mon métier à la fin de mes études à Epitech.
+              <br>Je diversifie désormais mes compétences.
+              <br>Le C# est mon langage le plus approfondi et me permets d'approcher d'autres technologies comme WPF,
+              Avalonia, Asp...
+              <br>De nombreuses expériences de GameJam m'ont permis de devenir polyvalent, d'être efficace dans mes
               développements et de m'adapter rapidement à une nouvelle équipe.
-              <br>Je développe principalement des outils pour les utilisateurs (développeurs, artistes...) et des
-              systèmes gameplay/UI et j'ai réalisé des projets en AR et VR.
-              <br> Je suis en parallèle compétiteur de niveau national en Biketrial.
+              <br>Je suis en parallèle compétiteur de niveau national en Biketrial.
             </p>
           </div>
           <div class="mt-2 space-x-1 sm:space-x-3">
-            <a v-if="getCookie('lang') === 'eng'" href="CV_Gaspard_Thirion_2024_EN_web.pdf" target="_blank"
+            <!-- todo translate and add english CV -->
+            <a v-if="getCookie('lang') === 'eng'" href="CV_Gaspard_Thirion_2024_FR_csharp.pdf" target="_blank"
                rel="noreferrer">
               <button class="bg-celadonBlue hover:bg-prussianBlue">
                 <svg class="sm:w-5 sm:w-5 w-4 h-4 fill-current" role="img" viewBox="0 0 42 42"
@@ -43,7 +45,7 @@
                 <span class="xl:hidden">Resume</span><span class="xl:block hidden">View Resume</span>
               </button>
             </a>
-            <a v-if="getCookie('lang') === 'fr'" href="CV_Gaspard_Thirion_2024_FR_web.pdf" target="_blank"
+            <a v-if="getCookie('lang') === 'fr'" href="CV_Gaspard_Thirion_2024_FR_csharp.pdf" target="_blank"
                rel="noreferrer">
               <button class="bg-celadonBlue hover:bg-prussianBlue">
                 <svg class="sm:w-5 sm:w-5 w-4 h-4 fill-current" role="img" viewBox="0 0 42 42"
