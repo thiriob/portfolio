@@ -6,6 +6,22 @@
       vedette</h2>
     <div class="flex flex-wrap justify-center">
       <Card
+          :img1="SP1"
+          cardtitle="Simplif" year="2024" v-bind:tags="['VB', '.Net','Word']"
+          desc="Word addin"
+          descFR="Extension word"
+          longDesc="Development support for a COM add-in for Microsoft Word. 
+                Redesign and organization of legacy code to improve readability and scalability. 
+                Creation of a routine to check the validity of the license. 
+                Development of a custom installer to properly uninstall the add-on. 
+                Implementation of a system for secrets storage and encryption of saved data."
+          longDescFR="Renfort de développement sur un addon COM pour Microsoft Word.
+                Refonte et rangement du code legacy pour améliorer la lisibilité et scalabilité.
+                Création d'une routine de check de la validité de la licence.
+                Création d'un installateur customisé afin de désinstaller proprement l'addon.
+                Implémentation d'un système de stockage des secrets et cryptage des données sauvegardées."
+      />
+      <Card
           :img1="CE1"
           cardtitle="CerfaExtract" year="2024" v-bind:tags="['C#', '.Net','Avalonia']"
           desc="Tax bundle extraction tool"
@@ -122,6 +138,8 @@ import AV3 from '@/assets/Projects/AV-3.jpg';
 
 import CE1 from '@/assets/Projects/CE-1.png';
 
+import SP1 from '@/assets/Projects/SP-1.png';
+
 import Card from './Card.vue'
 import {getCookie} from "@/cookie";
 
@@ -161,8 +179,10 @@ export default {
       AV1: AV1,
       AV2: AV2,
       AV3: AV3,
-      
+
       CE1: CE1,
+
+      SP1: SP1,
     }
   },
   mounted() {
