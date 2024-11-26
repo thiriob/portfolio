@@ -13,20 +13,20 @@
         <a href="#contact"
            class="border-b-2 border-transparent hover:text-gray-900 dark:hover:text-gray-200 hover:border-celadonBlue mx-1.5 sm:mx-6">Contact</a>
       </div>
-      <div class="container absolute flex justify-end pointer-events-none">
-        <div class="pointer-events-auto flex mr-8">
-          <img @click="changeLang('fr')"
-               src="@/assets/france.png"
-               alt="france"
-               class="w-8 cursor-pointer mr-2"
-          />
-          <img @click="changeLang('eng')"
-               src="@/assets/united-kingdom.png"
-               alt="united-kingdom"
-               class="w-8 cursor-pointer"
-          />
-        </div>
-      </div>
+<!--      <div class="container absolute flex justify-end pointer-events-none">-->
+<!--&lt;!&ndash;        <div class="pointer-events-auto flex mr-8">&ndash;&gt;-->
+<!--&lt;!&ndash;          <img @click="changeLang('fr')"&ndash;&gt;-->
+<!--&lt;!&ndash;               src="@/assets/france.png"&ndash;&gt;-->
+<!--&lt;!&ndash;               alt="france"&ndash;&gt;-->
+<!--&lt;!&ndash;               class="w-8 cursor-pointer mr-2"&ndash;&gt;-->
+<!--&lt;!&ndash;          />&ndash;&gt;-->
+<!--&lt;!&ndash;          <img @click="changeLang('eng')"&ndash;&gt;-->
+<!--&lt;!&ndash;               src="@/assets/united-kingdom.png"&ndash;&gt;-->
+<!--&lt;!&ndash;               alt="united-kingdom"&ndash;&gt;-->
+<!--&lt;!&ndash;               class="w-8 cursor-pointer"&ndash;&gt;-->
+<!--&lt;!&ndash;          />&ndash;&gt;-->
+<!--        </div>-->
+<!--      </div>-->
     </div>
   </nav>
 </template>

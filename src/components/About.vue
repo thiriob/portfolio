@@ -45,7 +45,7 @@
                 <span class="xl:hidden">Resume</span><span class="xl:block hidden">View Resume</span>
               </button>
             </a>
-            <a v-if="getCookie('lang') === 'fr'" href="CV_Gaspard_Thirion_2024_FR_csharp.pdf" target="_blank"
+            <a v-if="getCookie('lang') === 'fr'" href="cv.pdf" target="_blank"
                rel="noreferrer">
               <button class="bg-celadonBlue hover:bg-prussianBlue">
                 <svg class="sm:w-5 sm:w-5 w-4 h-4 fill-current" role="img" viewBox="0 0 42 42"

@@ -38,7 +38,7 @@ export default {
   },
   data() {
     return {
-      lang: "eng"
+      lang: "fr"
     }
   },
   mounted() {
